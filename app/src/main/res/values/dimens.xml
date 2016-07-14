@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="medium_text_size">14sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+
+    <dimen name="large_padding">8dp</dimen>
+    <dimen name="medium_padding">4dp</dimen>
+    <dimen name="small_padding">2dp</dimen>
+
+    <dimen name="large_element_size">64dp</dimen>
+    <dimen name="medium_element_size">32dp</dimen>
+    <dimen name="small_element_size">16dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="scrollbar_thumb_size">4dp</dimen>
+</resources>

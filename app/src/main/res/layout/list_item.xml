@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/hotel_image"
+        android:layout_width="@dimen/large_element_size"
+        android:layout_height="@dimen/large_element_size"
+        android:background="@color/color_background"
+        android:contentDescription="@string/desc_hotel_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/large_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <TextView
+                android:id="@+id/name_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textSize="@dimen/large_text_size"/>
+
+            <TextView
+                android:id="@+id/address_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/small_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/stars_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:paddingRight="@dimen/small_padding"
+                    android:textSize="@dimen/small_text_size"/>
+
+                <ImageView
+                    android:layout_width="@dimen/small_element_size"
+                    android:layout_height="@dimen/small_element_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_action_star"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/suites_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:paddingRight="@dimen/small_padding"
+                    android:textSize="@dimen/small_text_size"/>
+
+                <ImageView
+                    android:layout_width="@dimen/small_element_size"
+                    android:layout_height="@dimen/small_element_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_action_hotel"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/distance_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:paddingRight="@dimen/small_padding"
+                    android:textSize="@dimen/small_text_size"/>
+
+                <ImageView
+                    android:layout_width="@dimen/small_element_size"
+                    android:layout_height="@dimen/small_element_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_action_walk"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

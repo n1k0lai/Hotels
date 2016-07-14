@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#99cc00</color>
+    <color name="color_primary_dark">#669900</color>
+    <color name="color_highlight">#cc99cc00</color>
+    <color name="color_divider">#dedede</color>
+    <color name="color_background">#aaaaaa</color>
+    <color name="color_no_background">#00000000</color>
+    <color name="color_tint">#33000000</color>
+</resources>

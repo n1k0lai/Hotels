@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Отели</string>
+    <string name="app_about">&lt;i&gt;%1$s %2$s&lt;/i&gt;
+        &lt;br&gt;&lt;font color="#aaaaaa"&gt;_________________________&lt;/font&gt;
+        &lt;br&gt;&lt;br&gt;Небольшое тестовое приложение %3$s.</string>
+
+    <string name="no_hotels_stub">Нет отелей.</string>
+
+    <string name="snackbar_connection">Отсутствует интернет соединение.</string>
+    <string name="snackbar_data">Не удалось загрузить данные.</string>
+    <string name="snackbar_retry">ПОВТОРИТЬ</string>
+
+    <string name="toast_maps">Карты недоступны.</string>
+
+    <string name="action_sort">Сортировать</string>
+    <string name="action_sort_stars">Количество звёзд</string>
+    <string name="action_sort_suites">Свободные номера</string>
+    <string name="action_sort_distance">Расстояние до центра</string>
+    <string name="action_about">О приложении</string>
+
+    <string name="title_activity_details">Подробности</string>
+    <string name="title_activity_update">Обновление&#8230;</string>
+    <string name="title_activity_download">Загрузка %1$d/%2$d</string>
+
+    <string name="details_hotel">
+        &lt;b&gt;АДРЕС:&lt;/b&gt; %1$s&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;СВОБОДНЫЕ НОМЕРА:&lt;/b&gt; %2$s&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;РАССТОЯНИЕ ДО ЦЕНТРА ГОРОДА:&lt;/b&gt; %3$s</string>
+
+    <string name="desc_hotel_image">Изображение отеля</string>
+    <string name="desc_hotel_map">Показать на карте</string>
+</resources>

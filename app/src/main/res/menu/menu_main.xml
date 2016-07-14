@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/action_sort_stars"
+                android:title="@string/action_sort_stars"
+                android:checkable="true"/>
+
+            <item
+                android:id="@+id/action_sort_suites"
+                android:title="@string/action_sort_suites"
+                android:checkable="true"/>
+
+            <item
+                android:id="@+id/action_sort_distance"
+                android:title="@string/action_sort_distance"
+                android:checkable="true"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+</menu>
